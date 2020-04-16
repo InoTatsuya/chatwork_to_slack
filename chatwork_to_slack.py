@@ -4,8 +4,8 @@ import requests
 import time
 import param
 
-url = param.SLACK_URL + '/rooms/' + param.SLACK_ROOMID + '/messages'
-headers = { 'X-ChatWorkToken': param.SLACK_APIKEY }
+url = param.CHAT_URL + '/rooms/' + param.CHAT_ROOMID + '/messages'
+headers = { 'X-ChatWorkToken': param.CHAT_APIKEY }
 
 
 while 1:
